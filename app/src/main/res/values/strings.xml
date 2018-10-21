@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NotifyMe</string>
+    <string name="destination">41.8719144,-87.6501048</string>
+    <string name="NearbyCrimeAlert"> "There ha</string>
+    <string name="app_token">tG6pcZcbpT7fQfhkJWUeqDCcFPuyN143nhGlKLAI</string>
+    <string name="app_key">zGsC58qJL6Mzv7Rv</string>
+    <string name="showMeCrimeAlerts">Show Me Crime Alerts</string>
+    <string name="ShowMeEventAlerts">Show Me Event Alerts</string>
+    <string name="ShowMeOfferAlerts">Show Me Offer Alerts</string>
+    <string name="NoEvents">Dont Show Any Event Alerts</string>
+    <string name="NoCrime">Dont Show Me Any Crime Alerts</string>
+    <string name="NoOffers">Dont Show Me Any Offer Alerts</string>
+    <string name="preference_Key">Preferences</string>
+    <string name="crimePrefrences">crimePreference</string>
+    <string name="eventPreferences">EventPreferences</string>
+    <string name="offerAlerts">OfferAlerts</string>
+    <string name="offerPreferences">OfferPreferences</string>
+    <string-array name="user_preferences">
+        <item>
+            music
+        </item>
+        <item>
+            arts
+        </item>
+        <item>
+            hackathon
+        </item>
+    </string-array>
+</resources>

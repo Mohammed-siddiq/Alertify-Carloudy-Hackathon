@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingTop="100dp">
+
+        <ToggleButton
+            android:id="@+id/CrimeAlerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/showMeCrimeAlerts"
+            android:textOff="@string/NoCrime"/>
+
+        <ToggleButton
+            android:id="@+id/EventAlerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/ShowMeEventAlerts"
+            android:textOff="@string/NoEvents"/>
+
+        <ToggleButton
+            android:id="@+id/offerAlerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="@string/ShowMeOfferAlerts"
+            android:textOff="@string/NoOffers"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
